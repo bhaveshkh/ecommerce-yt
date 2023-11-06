@@ -12,4 +12,3 @@ func UserRoutes(incomingRoutes *gin.Engine) {
 	incomingRoutes.POST("/users/productview", controllers.SearchProduct())
 	incomingRoutes.POST("/users/search", controllers.SearchProductByQuery())
 }
-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
